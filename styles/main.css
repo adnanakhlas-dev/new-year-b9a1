@@ -335,7 +335,7 @@
     line-height: 32px;
 }
 
-.best-gift-img{
+.best-gift-img {
     margin-top: 48px;
     display: flex;
     flex-wrap: wrap;
@@ -343,3 +343,64 @@
 }
 
 /* Best Gift Section Styles End */
+
+/* Newsletter Section Styles Start */
+.newsletter-container {
+    background-color: rgba(255, 0, 0, 0.05);
+    padding: 80px;
+    text-align: center;
+    
+}
+
+.newsletter-container .newsletter-img img {
+    margin-bottom: 40px;
+}
+
+.newsletter-container .newsletter-text {
+    width: 896px;
+    margin: auto;
+}
+
+.newsletter-container .newsletter-text h2 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 22px;
+    text-transform: capitalize;
+}
+
+.newsletter-container .newsletter-text p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 48px;
+}
+
+.newsletter-container .newsletter-form form{
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter-container .newsletter-form form input {
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF;
+    padding: 25px 30px;
+    color: rgba(7, 2, 17, 0.30);
+    font-size: 18px;
+    border: none;
+    outline: none;
+}
+
+.newsletter-container .newsletter-form form button {
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    border: none;
+    padding: 24px 56px;
+    outline: none;
+}
+
+/* Newsletter Section Styles End */
