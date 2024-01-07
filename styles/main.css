@@ -12,17 +12,20 @@
 .container {
     width: 80%;
     max-width: 1320px;
-    margin: auto
+    margin: auto;
 }
 
+/* Hero Section Styles Start*/
+
 .header-container {
-    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Banner\ Image.png');
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/banner-image.png');
     height: 600px;
+    margin: 120px;
     margin-top: 50px;
     border-radius: 16px;
 }
 
-.header-container .header-text{
+.header-container .header-text {
     width: 632px;
     position: relative;
     top: 50%;
@@ -44,3 +47,32 @@
     font-weight: 600;
     line-height: 95px;
 }
+/* Hero Section Styles End */
+
+/* Discount Section Styles Start */
+.discount-container {
+    text-align: center;
+    margin: 120px;
+}
+
+.discount-container .discount-text h2 {
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.discount-container .discount-text h3 {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.discount-container .discount-text p {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+/* Discount Section Styles End */
