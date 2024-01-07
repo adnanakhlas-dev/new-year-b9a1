@@ -176,7 +176,7 @@
 
 /* Best Offer Section Styles Start */
 
-.best-offer-content{
+.best-offer-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -184,7 +184,7 @@
 
 .best-offer-container .best-offer-content .best-offer-text-left {
     width: 393px;
-    text-align: left; 
+    text-align: left;
 }
 
 .best-offer-container .best-offer-content .best-offer-text-left h2 {
@@ -199,7 +199,7 @@
     font-size: 48px;
     font-weight: 800;
     text-transform: capitalize;
-    margin-bottom: 22px ;
+    margin-bottom: 22px;
 }
 
 .best-offer-container .best-offer-content .best-offer-text-left p {
@@ -221,7 +221,7 @@
 
 .best-offer-container .best-offer-content .best-offer-text-right {
     width: 276px;
-    text-align: left; 
+    text-align: left;
 }
 
 .best-offer-container .best-offer-content .best-offer-text-right h2 {
@@ -239,3 +239,69 @@
 }
 
 /* Best Offer Section Styles End */
+
+/* Holiday Sale Section Styles Start */
+
+
+
+.holiday-sale-container .holiday-sale-text {
+    text-align: center;
+    width: 1068px;
+    margin: auto;
+}
+
+.holiday-sale-container .holiday-sale-text h3 {
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.holiday-sale-container .holiday-sale-text h2 {
+    color: #070211;
+    font-size: 72px;
+    font-weight: 800;
+    margin-bottom: 28px;
+}
+
+.holiday-sale-container .holiday-sale-text h2 span {
+    color: #F00;
+}
+
+.holiday-sale-container .holiday-sale-text p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 64px;
+}
+
+.holiday-sale-img {
+    position: relative;
+    height: 670px;
+}
+
+.holiday-sale-img .img1{
+    position: relative;
+    top: -43px;
+    left: 724px;
+    z-index: 2;
+}
+.holiday-sale-img .img2{
+    position: relative;
+    top: 6px;
+    right: -44%;
+}
+.holiday-sale-img .img3{
+    position: relative;
+    top: -434px;
+    left: 0;
+    z-index: 3;
+}
+.holiday-sale-img .img4{
+    position: relative;
+    top: -672px;
+    left: 0;
+}
+/* Holiday Sale Section Styles End */
+    
