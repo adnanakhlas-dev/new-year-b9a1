@@ -388,14 +388,15 @@
 
 .newsletter-container .newsletter-form form input {
     border-radius: 50px 0px 0px 50px;
-    background: #FFF;
     padding: 25px 30px;
     color: rgba(7, 2, 17, 0.30);
     font-size: 18px;
     border: none;
     outline: none;
     flex-grow: 1;
+    color: #070211;
 }
+
 
 .newsletter-container .newsletter-form form button {
     border-radius: 0px 50px 50px 0px;
