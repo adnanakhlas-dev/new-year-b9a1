@@ -291,7 +291,7 @@
 .holiday-sale-img .img2 {
     position: relative;
     top: 6px;
-    right: -44%;
+    right: -580px;
 }
 
 .holiday-sale-img .img3 {
@@ -349,7 +349,7 @@
     background-color: rgba(255, 0, 0, 0.05);
     padding: 80px;
     text-align: center;
-
+    
 }
 
 .newsletter-container .newsletter-img img {
@@ -357,8 +357,8 @@
 }
 
 .newsletter-container .newsletter-text {
-    width: 896px;
     margin: auto;
+    width: 896px;
 }
 
 .newsletter-container .newsletter-text h2 {
@@ -375,10 +375,15 @@
     line-height: 32px;
     margin-bottom: 48px;
 }
+.newsletter-container .newsletter-form{
+    width: 600px;
+    margin:auto;
+}
 
 .newsletter-container .newsletter-form form {
     display: flex;
     justify-content: center;
+    
 }
 
 .newsletter-container .newsletter-form form input {
@@ -389,6 +394,7 @@
     font-size: 18px;
     border: none;
     outline: none;
+    flex-grow: 1;
 }
 
 .newsletter-container .newsletter-form form button {
