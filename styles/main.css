@@ -281,27 +281,65 @@
     height: 670px;
 }
 
-.holiday-sale-img .img1{
+.holiday-sale-img .img1 {
     position: relative;
     top: -43px;
     left: 724px;
     z-index: 2;
 }
-.holiday-sale-img .img2{
+
+.holiday-sale-img .img2 {
     position: relative;
     top: 6px;
     right: -44%;
 }
-.holiday-sale-img .img3{
+
+.holiday-sale-img .img3 {
     position: relative;
     top: -434px;
     left: 0;
     z-index: 3;
 }
-.holiday-sale-img .img4{
+
+.holiday-sale-img .img4 {
     position: relative;
     top: -672px;
     left: 0;
 }
+
 /* Holiday Sale Section Styles End */
-    
+
+/* Best Gift Section Styles Start */
+.best-gift-container .best-gift-text {
+    width: 896px
+}
+
+.best-gift-container .best-gift-text h2 {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.best-gift-container .best-gift-text h3 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 800;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+
+.best-gift-container .best-gift-text p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.best-gift-img{
+    margin-top: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px
+}
+
+/* Best Gift Section Styles End */
