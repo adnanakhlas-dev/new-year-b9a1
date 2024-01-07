@@ -10,9 +10,8 @@
 }
 
 .container {
-    width: 80%;
     max-width: 1320px;
-    margin: auto;
+    margin: 120px auto;
 }
 
 /* Hero Section Styles Start*/
@@ -20,7 +19,6 @@
 .header-container {
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/banner-image.png');
     height: 600px;
-    margin: 120px;
     margin-top: 50px;
     border-radius: 16px;
 }
@@ -47,12 +45,12 @@
     font-weight: 600;
     line-height: 95px;
 }
+
 /* Hero Section Styles End */
 
 /* Discount Section Styles Start */
 .discount-container {
     text-align: center;
-    margin: 120px;
 }
 
 .discount-container .discount-text h2 {
@@ -75,4 +73,66 @@
     font-weight: 700;
     margin-bottom: 48px;
 }
+
 /* Discount Section Styles End */
+
+/* Midnight Party Section Styles Start */
+
+.midnight-party-container {
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/vector.png');
+    padding: 126px;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    background-size: cover;
+    background-position: center;
+}
+
+.midnight-party-container .midnight-party-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.midnight-party-container .midnight-party-content .midnight-party-text{
+    width: 697px;
+}
+
+.midnight-party-container .midnight-party-content .midnight-party-text h2 {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    margin-bottom: 24px;
+}
+
+.midnight-party-container .midnight-party-content .midnight-party-text p {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 48px;
+}
+
+.midnight-party-container .midnight-party-content .midnight-party-text button {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: transparent;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    margin-left: 32px;
+}
+
+.midnight-party-container .midnight-party-content .midnight-party-img{
+    width: 320px;
+}
+
+.midnight-party-container .midnight-party-content .midnight-party-img img{
+    display: block;
+    width: 100%;
+}
+
+/* Midnight Party Section Styles End */
