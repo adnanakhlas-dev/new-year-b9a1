@@ -110,6 +110,7 @@
     font-size: 18px;
     line-height: 30px;
     margin-bottom: 48px;
+    text-align: justify;
 }
 
 .midnight-party-container .midnight-party-content .midnight-party-text button {
@@ -208,6 +209,7 @@
     color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
     line-height: 32px;
+    text-align: justify;
 }
 
 .best-offer-container .best-offer-content .best-offer-img {
@@ -436,16 +438,21 @@ footer {
     margin-bottom: 50px;
 }
 
+.footer-container .footer-text-container .footer-text p img{
+    vertical-align: middle;
+}
+
 .footer-container .social-links {
     border-top: 1px solid rgba(255, 255, 255, 0.15);
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
-    padding: 20px 0px;
+    padding: 48px 0px;
     text-align: center;
 }
 
-.footer-container .social-links a {
+.footer-container .social-links a img{
     margin-right: 24px;
     font-size: 64px;
+    vertical-align: middle;
 }
 
 .footer-container .footer-foot-container {
@@ -463,5 +470,7 @@ footer {
 .footer-container .footer-foot-container .foot-text p span{
     color: #F00;
 }
+
+
 
 /* Footer Section Styles End */
