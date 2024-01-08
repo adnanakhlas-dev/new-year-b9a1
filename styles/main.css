@@ -438,9 +438,15 @@ footer {
     margin-bottom: 50px;
 }
 
-.footer-container .footer-text-container .footer-text p img{
+.footer-container .footer-text-container .footer-text p a img{
     vertical-align: middle;
 }
+
+.footer-container .footer-text-container .footer-text p a{
+    color: #FFF;
+    text-decoration: none;
+}
+
 
 .footer-container .social-links {
     border-top: 1px solid rgba(255, 255, 255, 0.15);
