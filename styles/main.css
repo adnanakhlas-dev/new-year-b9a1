@@ -170,6 +170,7 @@
     border: none;
     outline: none;
     margin-top: 48px;
+    cursor: pointer;
 }
 
 /* Park Hotel Section Styles End */
@@ -408,6 +409,7 @@
     border: none;
     padding: 24px 56px;
     outline: none;
+    cursor: pointer;
 }
 
 /* Newsletter Section Styles End */
