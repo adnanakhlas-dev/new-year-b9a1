@@ -443,7 +443,7 @@ footer {
     text-align: center;
 }
 
-.footer-container .social-links a i {
+.footer-container .social-links a {
     margin-right: 24px;
     font-size: 64px;
     color: #F00;
